@@ -2,11 +2,6 @@
 #by swig.  Virtually all of the native C functions have
 #translated versions as opposed to direct translation.
 
-# $URL: https://xautomation.svn.sourceforge.net/svnroot/xautomation/trunk/python/xaut.py $
-# $Author: chris_parker $
-# $Date: 2012-09-22 17:17:57 -0700 (Sat, 22 Sep 2012) $
-# $Rev: 29 $
-
 import _xautpy
 import new
 new_instancemethod = new.instancemethod
@@ -272,7 +267,7 @@ class window:
                 if(timeout > 0):
                     now = time.time()
                     if((now - start) >= timeout):
-                        return False
+                        return None
             time.sleep(sleep)
 
     def is_valid(self):
