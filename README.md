@@ -31,6 +31,14 @@ input' to the path of the script;
 
 * Plug your USB pedal and launch the script.
 
+##Assembly Instructions
+
+The prototype was based on a L-shaped aluminum bar (which can be found in any
+hardware store), a collection of buttons, wires, and an ATmega32U4 MCU (which can be found in many projects, most notably on the Arduino Leonardo):
+
+[Pedal Transcriba prototype](pedal_0.1.jpg)
+
+TODO: describe the assembly process w/ the PCB, as soon as they are ready!
 
 ##Licensing
 
