@@ -1,2 +1,0 @@
-#!/bin/sh
-echo "get_time" | nc -U vlc.sock
