@@ -1,4 +1,4 @@
-# Transcriba 0.3
+# Transcriba 0.4
 
 Integrates VLC media player with an arduino-based USB pedal for audio
 transcription.
