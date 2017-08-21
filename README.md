@@ -1,13 +1,17 @@
-#Transcriba 0.3
+# Transcriba 0.3
 
-Integrates VLC media player with an arduino-based USB pedal for audio transcription.
+Integrates VLC media player with an arduino-based USB pedal for audio
+transcription.
  
-This script is based on Jeffrey Ness' [raw keyboad access code](https://github.com/jness). 
-It was inspired and re-written from 'vlccontrol' by [Derek Barnett](https://wiki.videolan.org/How_to_use_VLC_for_transcription_in_linux). 
-It uses Al's [Pyperclip](https://pypi.python.org/pypi/pyperclip/1.5.1) for the usage of the clipboard function on Mac, Windoze, and Linux.
+This script is based on Jeffrey Ness' [raw keyboad access
+code](https://github.com/jness).  It was inspired and re-written from
+'vlccontrol' by [Derek
+Barnett](https://wiki.videolan.org/How_to_use_VLC_for_transcription_in_linux).
+It uses Al's [Pyperclip](https://pypi.python.org/pypi/pyperclip/1.5.1) for the
+usage of the clipboard function on Mac, Windoze, and Linux.
  
-Tested with PRO MICRO Leonardo-compatible board. Here is the pinout:
-(it works with other Leonardo-compatible boards, Teensies, etc.)
+Tested with the PRO MICRO Leonardo-compatible board. Here is the pinout: (it 
+works with other Leonardo-compatible boards, Teensy, etc.)
 
 ```
 Pin     Key Assignment            Function
@@ -20,30 +24,35 @@ D06     KEY_LEFTCTRL + KEY_F11    Speed-Up
 D07     KEY_LEFTCTRL + KEY_F12    Slow-Down
 ```
 
-##Getting Started
+## Getting Started
 
 You need to configure VLC before using the script:
 
-* Open VLC: preferences: advanced preferences and configure its interface to use 'RC', check the option 'fake tty' and 'UNIX socket command
-input' to the path of the script;
+* Open VLC: preferences: advanced preferences and configure its interface to 
+use 'RC', check the option 'fake tty' and 'UNIX socket command input' to 
+the path of the script;
  
-* Open 'keyboard.map' for a list of keycodes. Edit transcriba.py and change the keycodes according to your environment;
+* Open 'keyboard.map' for a list of keycodes. Edit transcriba.py and change the
+keycodes according to your environment;
 
 * Plug your USB pedal and launch the script.
 
-##Assembly Instructions
+## Assembly Instructions
 
 The prototype was based on a L-shaped aluminum bar (which can be found in any
-hardware store), a collection of buttons, wires, and an ATmega32U4 MCU (which can be found in many projects, most notably on the Arduino Leonardo):
+hardware store), a collection of buttons, wires, and an ATmega32U4 MCU (which
+can be found in many projects, most notably on the Arduino Leonardo):
 
 [Pedal Transcriba prototype](pedal_0.1.jpg)
 
-TODO: describe the assembly process w/ the PCB, as soon as they are ready!
+TODO: describe the assembly process w/ the PCB, as soon as it is ready!
 
-##Licensing
+## Licensing
 
-Each dependency has specific licensing requirements. Check their respective files for further information.
-This script is distributed under the GPL version 2. For further information, read 'LICENSE'.
+Each dependency has specific licensing requirements. Check their respective
+files for further information.  This script is distributed under the GPL
+version 2. For further information, read 'LICENSE'.
 
 *Enjoy Transcribing!*
+ (just kidding...)
 

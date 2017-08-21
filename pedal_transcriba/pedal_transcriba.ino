@@ -8,6 +8,8 @@
  * --------------------------------------------------------------
  */
 
+#include "Keyboard.h"
+
 // Pin definitions
 const int BUT1_PIN = 2;
 const int BUT2_PIN = 3;
